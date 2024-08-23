@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+
+    <style>
+        * {
+            box-sizing: border-box;
+            margin: 0 auto;
+        }
+        
+        #khung {
+            width: 1000px;
+            background-color: rgb(126, 183, 239);
+            height: auto;
+        }
+        
+        #set {
+            border: 1px solid black;
+            width: 40%;
+            height: auto;
+            text-align: center;
+            background-color: aqua;
+            border-radius: 40px;
+        }
+        
+        span {
+            margin-left: 40px;
+            margin-bottom: 10px;
+        }
+        
+        input {
+            margin-left: 150px;
+            margin-bottom: 10px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div id="khung">
+        <div id="set">
+            <h3>Jackson</h3>
+            <hr style=" font-size: 2px;">
+            <h3>Electronics</h3>
+        </div>
+        <br>
+        <h4 style="text-align: center;">Registration Form</h4>
+        <br>
+        <p style="text-align: center;">Register your Jackson Electronics product here</p>
+        <br>
+        <div>
+            <span>First Name:</span>
+            <input type="text" name="txtten" id="fname" size="15">
+            <span style="margin-left: 0;">Last Name:</span>
+            <input style="margin-left: 0;" type="text" name="txtten" id="lname" size="15">
+            <br>
+            <span>Address #1:</span>
+            <input type="text" name="Address" id="Address1" size="30">
+            <br>
+            <span>Address #2:</span>
+            <input type="text" name="Address" id="Address2" size="30">
+            <br>
+            <span>City:</span>
+            <input style="margin-left: 195px;" type="text" name="City" id="City" size="20">
+            <span style="margin-left: 0;">State:</span>
+            <input style="margin-left: 0;" type="text" name="State" id="State" size="5">
+            <span style="margin-left: 0;">Zip:</span>
+            <input style="margin-left: 0;" type="text" name="Zip" id="Zip" size="10">
+            <br>
+            <span>Country:</span>
+            <input style="margin-left: 170px;" type="text" name="Country" id="Country" size="20" value="United States">
+            <hr>
+            <br>
+            <span>Product:</span>
+            <select style="margin: 0 0 10px 173px;" name="Name" id="">
+                <option value="ScanMaster">ScanMaster</option>
+                <option value="SacnMaster2">SacnMaster2</option>
+                <option value="ScanMaster3">ScanMaster3</option>
+            </select>
+            <br>
+            <span>Date Purchased:</span>
+            <input style="margin-left: 122px;" type="text" name="Date Purchased" id="Date" size="20">
+            <br>
+            <span>Serial #:</span>
+            <input style="margin-left: 172px;" type="text" name="Serial" id="Serial" size="20">
+            <br>
+            <span>Used for:</span>
+            <input style="margin-left: 165px;" type="radio" name="Home" id="Home">
+            <label for="Home">Home</label>
+            <input style="margin-left: 100px;" type="radio" name="Home" id="edu">
+            <label for="edu">Education Institution</label>
+            <br>
+            <input style="margin-left: 269px;" type="radio" name="Home" id="bus">
+            <label for="bus">Business</label>
+            <input style="margin-left: 82px;" type="radio" name="Home" id="Ot">
+            <label for="Ot">Other</label>
+            <br>
+            <input style="margin-left: 269px;" type="radio" name="Home" id="gov">
+            <label for="gov">Govemment</label>
+            <br>
+            <span>System (check all that apply):</span>
+            <input style="margin-left: 34px;" type="checkbox" name="Windows" id="wind">
+            <label for="wind">Windows</label>
+            <input style="margin-left: 78px;" type="checkbox" name="UNIX" id="un">
+            <label for="un">UNIX</label>
+            <br>
+            <input style="margin-left: 269px;" type="checkbox" name="Macintosh" id="mac">
+            <label for="mac">Macintosh</label>
+            <input style="margin-left: 71px;" type="checkbox" name="Other" id="oth">
+            <label for="oth">Other</label>
+            <hr>
+            <span>Comments?:</span>
+            <input style="height: 70px; margin-left: 140px;" type="text" size="50">
+            <br>
+            <input style="margin-left: 240px;" type="submit" value="Click to register">
+            <input style="margin-left: 0px;" type="submit" value="Click to cancel">
+
+        </div>
+</body>
+
+</html>
