@@ -1,0 +1,14 @@
+
+h1{
+    margin: auto;
+    color: brown;
+    text-align: center;
+    text-shadow: 5px 12px 10px rgb(247, 127, 127);
+}
+h2{
+    color:brown;
+    background-color: rgb(244, 244, 194);
+}
+.aa{
+    color: red;
+}

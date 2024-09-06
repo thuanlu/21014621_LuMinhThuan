@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bai 1b</title>
+
+    <style>
+        * {
+            box-sizing: border-box;
+            margin: auto;
+        }
+        
+        #khung {
+            border: 1px solid tomato;
+            width: 90%;
+            height: auto;
+        }
+        
+        nav {
+            text-align: center;
+            background-color: rgb(241, 161, 147);
+            height: 40px;
+        }
+        
+        #ex {
+            text-shadow: 5px 10px 20px red;
+            font-style: italic;
+            font-weight: 400;
+            text-align: center;
+            background-color: white;
+        }
+        
+        h1 {
+            color: brown;
+            background-color: rgb(233, 220, 205);
+        }
+        
+        .a1 {
+            text-decoration: none;
+            color: white;
+            margin: 10px 10px 0px 10px;
+            font-size: 20px;
+            border-right: 1px solid blue;
+            padding-right: 15px;
+        }
+        
+        .a2 {
+            color: red;
+        }
+        
+        u {
+            color: red;
+        }
+        
+        img {
+            margin-top: 5px;
+            border-right: 1px solid blue;
+            padding-right: 5px;
+        }
+    </style>
+</head>
+
+<body>
+    <div id="khung">
+        <a name="d"></a>
+        <header>
+            <h1 id="ex">EXAMPLE CAFE MENU</h1>
+        </header>
+        <hr>
+        <nav>
+            <img src="../IMG/icons8-home-50.png" alt="" height="20px" width="25px">
+            <a class=" a1 " href="#a ">Starter</a>
+            <a class="a1 " href="# ">Main Courses</a>
+            <a class="a1 " href="#de ">Desserts</a>
+            <input style="margin-left: 20px;" type="text" size="15spx"> <input type="submit" value="Go">
+        </nav>
+        <hr>
+        <section>
+            <a name="a ">
+                <h1>
+                    Starters
+                </h1>
+                <ul>
+                    <li>Chesnut and Mushroom Goujons <u>(v)</u></li>
+                    <li>Goat Cheese Salad <u>(v)</u></li>
+                    <li><b style="color: tomato; ">HONEY SOY CHICKEN KEBABS</b><b><u>(V)</u></b></li>
+                    <li>Seafood Salad <u>(v)</u></li>
+                </ul>
+            </a>
+            <a class="a2 " href="#d ">Back to top</a>
+
+            <a name="de ">
+                <h1>
+                    Desserts
+                </h1>
+                <ul>
+                    <li>Lemon Sorbet <u>(v)</u></li>
+                    <li>Chocolate Mud Pie <u>(v)</u></li>
+                    <li>Pecan Pie<u>(v)</u></li>
+                    <li>Selection of Fine Cheeses from Around the World <u>(v)</u></li>
+                </ul>
+            </a>
+            <a class="a2 " href="#d ">Back to top</a>
+
+        </section>
+    </div>
+</body>
+
+</html>
