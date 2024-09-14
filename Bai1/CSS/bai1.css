@@ -1,0 +1,184 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+
+#khung1{
+    width: 950px;
+    height: 590px;
+    /*border: 1px solid;*/
+    margin: 0 auto;
+    background:linear-gradient(rgb(98, 192, 226), rgb(7, 103, 205));
+    opacity: 0.7;
+}
+
+header{
+    margin-top: 0;
+    width: 100%;
+    height: 50px;
+   /* border-top: 0.01px solid rgba(0, 0, 0, 0.5);*/
+    display: flex;
+    align-items: center;
+    /*border: 1px solid;*/
+}
+/*----nav----*/
+#n1{
+    float: left;
+    width: 80%;
+    height: 100%;
+    /*background-color: black;*/
+    display: flex; /*chuyen li thanh hang ngang*/
+    align-items: center; /* căn đều phần tử*/
+    padding-left: 20px; /*chỉnh nd cách lề trái*/
+}
+
+#n2{
+    width: 170px;
+    height: 80%;
+    float: left;
+    /*background-color: bisque;*/
+    /*border: 1px solid;*/
+    display: flex; 
+    align-items: center;
+    padding: 10px; /*chỉnh trái phải nd trong n2*/
+}
+
+aside{
+    width: 100%;
+    height: 460px;
+    border-top: 5px dotted white;
+}
+
+footer{
+    width: 100%;
+    height: 80px;
+    border-top: 5px dotted white;
+    padding-top: 7px;
+    /*border: 1px solid;*/
+}
+/*-----------------phan tu con-----------------*/
+header a{
+    text-decoration: none; /*bo dau gach chan cua a*/
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+header a:hover{
+    color: black;
+}
+
+#n1 li{
+    list-style: none; /*bỏ dấu chấm trước li*/
+    padding-right: 40px; /*chỉnh khoảng cách bên phải giữa các li*/
+}
+
+#n2 h1{
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    /*text-shadow: 2px 1px black;*/
+    text-shadow: 0 0 15px rgb(2, 2, 152);
+}
+
+#s1{
+    float: left;
+    width: 52%;
+    height: 100%;
+    color: white;
+    padding-left: 7px;
+    padding-right: 20px;
+    /*border: 1px solid;*/
+}
+
+#s2{
+    float: left;
+    width: 48%;
+    height: 100%;
+    color: blue;
+    font-size: 20px;
+    /*border: 1px solid;*/
+}
+
+#s1 p{
+    margin-bottom: 0;
+}
+
+#s1 h1{
+    font-size: 25px;
+    margin-top: 30px;
+    margin-bottom: 10px;
+}
+
+#s2 img{
+    width: 400px;
+    height: 300px;
+    margin-top: 30px;
+    opacity: 2;
+    filter: brightness(75%) contrast(200%); /*chỉnh độ đậm nhạt của ảnh*/
+}
+
+#s2 h2{
+    margin-left: 40px;
+    margin-bottom: 0;
+    text-shadow: 2px 2px rgba(0, 0, 255, 0.952);
+}
+
+#s2 p{
+    margin-top: 0;
+    margin-left: 52px;
+    font-weight: bold;
+}
+
+table, tr, td{
+    border-collapse: collapse;
+    /*border: 1px solid;*/
+}
+
+table{
+    margin-left: 50px;
+}
+
+select, input, textarea{
+    border-radius: 5px;
+    border: 1px solid blue;
+    outline: none;
+    box-shadow: 0 0 5px blue;
+}
+
+td input{
+    width: 220px;
+    position: relative;
+}
+
+footer h4, footer p{
+    font-family: "Hightower Text W00 Roman";
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    line-height: 0.2;
+    color: white;
+    font-size: 17px;
+}
+
+.submit{
+    margin-left: 215px;
+    cursor: pointer;
+    border: 1px dashed blue;
+    background-color: rgb(211, 201, 201); /*màu nền nút submit*/
+}
+
+.reset{
+    cursor: pointer;
+    border: 1px dashed blue;
+    background-color: rgb(211, 201, 201); /*màu nền nút reset*/
+}
+
+.submit:hover, .reset:hover{
+    background-color: rgb(175, 169, 169);
+}
